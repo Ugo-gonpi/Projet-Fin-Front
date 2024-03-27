@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <body className="w-full h-full">
-
-    </body>
+    <div className="bg-slate-500 w-full h-[100px]">
+      
+    </div>
   );
 }
