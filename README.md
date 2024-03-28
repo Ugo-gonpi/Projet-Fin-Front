@@ -40,7 +40,7 @@ Gestion des Produits
 
 Panier et Favoris
 
-     ● Fonctionnalité complète de gestion du panier et des favoris, accessible uniquement aux                          utilisateurs connectés.
+     ● Fonctionnalité complète de gestion du panier et des favoris, accessible uniquement aux                utilisateurs connectés.
 
      ● Boutons pour vider le panier et supprimer les favoris.
 
@@ -64,6 +64,4 @@ Développement et Déploiement
 
      ●  Versionner le code avec Git et héberger le repository sur GitHub.
 
-     ●  Déployer le site sur une plateforme comme Vercel ou Netlify pour profiter de leurs
-
-          intégrations avec NextJS.
+     ●  Déployer le site sur une plateforme comme Vercel ou Netlify pour profiter de leurs intégrations avec NextJS.
