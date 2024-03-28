@@ -1,4 +1,3 @@
-import Link from "next/link";
 import "./globals.css";
 import Image from "next/image";
 
@@ -9,12 +8,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="w-screen h-screen">
+      <html lang="en">
+        <body className="w-screen h-screen">
       
-        {children}
+          {children}
 
-      </body>
-    </html>
+        </body>
+      </html>
   );
 }

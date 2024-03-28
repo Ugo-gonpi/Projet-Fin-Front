@@ -40,7 +40,7 @@ Gestion des Produits
 
 Panier et Favoris
 
-     ● Fonctionnalité complète de gestion du panier et des favoris, accessible uniquement aux                utilisateurs connectés.
+     ● Fonctionnalité complète de gestion du panier et des favoris, accessible uniquement aux utilisateurs connectés.
 
      ● Boutons pour vider le panier et supprimer les favoris.
 
