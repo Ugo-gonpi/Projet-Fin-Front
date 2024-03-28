@@ -10,35 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-[#001933] w-screen">
-
-        <header className="w-full h-[70px] flex">
-
-          <div className="w-[20%] h-full">
-            
-          </div>
-
-          <div className="w-[80%] h-full flex justify-around items-center">
-            <Link href="/" className="text-[#00fdff] font-bold font-mono">Acceuil</Link>
-            <Link href="/genres" className="text-[#00fdff] font-bold font-mono">Types</Link>
-            <Link href="/details" className="text-[#00fdff] font-bold font-mono">Details</Link>
-          </div>
-
-        </header>
-
+      <body className="w-screen h-screen">
+      
         {children}
-
-        <footer className="w-full h-[195px] bg-[#007f8e] flex justify-center items-center flex-col">
-
-          <div>
-            <p className="text-[#00fdff] font-mono">Hello world, this is the footer</p>
-          </div>
-
-          <div>
-            <p className="font-mono">Bruh</p>
-          </div>
-
-        </footer>
 
       </body>
     </html>
