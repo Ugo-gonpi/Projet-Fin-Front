@@ -1,36 +1,69 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Ce que j'utilise pour crée ce projet:
 
-First, run the development server:
+Technologies et Outils
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+●  Framework Principal : NextJS 14 / NextJS 13
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+●  Langages : HTML5, CSS3, JavaScript (ES6+)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+●  API :
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+     ○  Jeux: https:/www.freetogame.com/api/games
 
-## Learn More
+## Les fonctionnalités qu'auront le site:
 
-To learn more about Next.js, take a look at the following resources:
+Fonctionnalités du Site Structure Globale
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+●  Navbar : Inclut des liens pour la navigation entre les pages, une icône de connexion et une icône de panier/favoris.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+●  Page d'accueil :
 
-## Deploy on Vercel
+     ○  Carrousel en entête avec 5 produits aléatoires.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+     ○  Sections mises en avant et produits à prix abordable/bien notés.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Authentification
+
+     ●  Page de connexion : Thématique alignée avec le design général du site.
+
+     ●  Page d'Inscription : Inscription simple avec authentification réelle.
+
+Gestion des Produits
+
+     ●  Page Produits : Liste des produits avec filtres avancés.
+
+     ●  Détails Produit : Affichage détaillé par ID produit sans prix mais avec option d'ajout au
+
+         panier/favoris.
+
+Panier et Favoris
+
+     ● Fonctionnalité complète de gestion du panier et des favoris, accessible uniquement aux                          utilisateurs connectés.
+
+     ● Boutons pour vider le panier et supprimer les favoris.
+
+Interface et Interaction
+
+     ●  Chargement asynchrone des données API avec logo de chargement.
+
+     ●  Animations pour le chargement des composants (optionnel).
+
+     ●  Implémentation d'un mode sombre.
+
+Filtrage et Recherche Avancée
+
+     ●  Filtres divers et variés dépendant de vos produits.
+
+     ●  Recherche avancée dépendant de vos produits ( par titre, auteur, genre, … ).
+
+## Deployer le site pour qu'il soit accesible a tous:
+
+Développement et Déploiement
+
+     ●  Versionner le code avec Git et héberger le repository sur GitHub.
+
+     ●  Déployer le site sur une plateforme comme Vercel ou Netlify pour profiter de leurs
+
+          intégrations avec NextJS.
