@@ -1,10 +1,12 @@
+"use client"
 
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 
 export default function Acceuil() {
 
     return(
-        <div className="bg-[#003f51] w-full h-[400px] flex justify-center items-center flex-col">
-            <p className="text-[#00fdff] font-bold font-[fontSite] text-[25px] italic">Hello world</p>
+        <div className="bg-[#003f51] w-full h-[500px] flex justify-center items-center flex-col">
             
         </div>
     )
