@@ -14,7 +14,7 @@ export default async function Acceuil() {
     return(
         <div className="bg-[#003f51] w-full justify-center items-center flex flex-wrap">
 
-            {/* Ici j'ai crée les cards de mon site, ou j'ai affiché les images, et d'autres infos utiles prises de l'api */}
+            {/* Ici j'ai crée les cards de mon site, ou j'ai affiché les images et d'autres infos utiles prises de l'api */}
 
             {
                 products.map((element, key) => {
