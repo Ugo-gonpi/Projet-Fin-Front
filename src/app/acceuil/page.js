@@ -4,6 +4,7 @@ async function getProduct(){
     const res = await fetch('https://www.freetogame.com/api/games')
     return res.json()
 }
+
 export default async function Acceuil() {
 
     const products = await getProduct()
@@ -25,9 +26,9 @@ export default async function Acceuil() {
 
                                     <p className="text-[#00fdff] font-[fontSite] text-[18px] font-bold">{element.title}</p>
 
-                                    <p className="text-[#00fdff] font-[fontSite]"> <span className="text-[#00fdff] font-[fontSite] font-bold">-Publisher :</span> {element.publisher}</p>
+                                    <p className="text-[#00fdff] font-[fontSite]"> <span className="text-[#00fdff] font-[fontSite] font-bold italic">-Publisher :</span> {element.publisher}</p>
 
-                                    <p className="text-[#00fdff] font-[fontSite]"> <span className="text-[#00fdff] font-[fontSite] font-bold">-Developer :</span> {element.developer}</p>
+                                    <p className="text-[#00fdff] font-[fontSite]"> <span className="text-[#00fdff] font-[fontSite] font-bold italic">-Developer :</span> {element.developer}</p>
 
                                     <Link className="mt-[10px] w-[150px] h-[40px] border-[#00fdff] border-2 rounded-[10px] text-[#00fdff] bg-[#003f51] font-[fontSite] hover:brightness-125 active:brightness-150 flex justify-center items-center font-bold mb-[10px]" href="/details">Details</Link>
 
