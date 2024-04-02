@@ -1,5 +1,7 @@
 import Link from "next/link"
 
+// Ici j'ai "fetch" l'api, c'est à dire que j'ai fait que je puisse utiliser et afficher les informations dans cette api.
+
 async function getProduct(){
     const res = await fetch('https://www.freetogame.com/api/games')
     return res.json()
@@ -11,6 +13,9 @@ export default async function Acceuil() {
 
     return(
         <div className="bg-[#003f51] w-full justify-center items-center flex flex-wrap">
+
+            {/* Ici j'ai crée les cards de mon site, ou j'ai affiché les images, et d'autres infos utiles prises de l'api */}
+
             {
                 products.map((element, key) => {
                     return(
@@ -40,6 +45,7 @@ export default async function Acceuil() {
                     )
                 })
             }
+
         </div>
     )
 }

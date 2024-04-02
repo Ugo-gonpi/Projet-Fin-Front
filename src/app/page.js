@@ -1,9 +1,13 @@
 import Image from "next/image";
+
 import Link from "next/link";
 
 export default function Home() {
+
   return (
     <div className="w-full h-[665px] flex justify-center items-center bg-[#001933] flex-col">
+
+      {/* Ici j'ai crée le login de mon site, des que nous rentrons dans la site il nous est demandé de nous login directement */}
 
       <h1 className="text-[#00fdff] text-[50px] mb-5 font-bold font-[fontSite] border-2 border-[#00aeb8] w-[200px] flex justify-center items-center rounded-[10px] shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] bg-[#007f8e]">Login</h1>
 
