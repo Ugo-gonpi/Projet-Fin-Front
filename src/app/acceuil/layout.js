@@ -27,7 +27,7 @@ export default function AcceuilLayout({ children }) {
 
                 <div className="w-[20%] h-full flex justify-center items-center">
 
-                    <Image src={logo} alt="logo du site" width={150} height={150} className="flex justify-center items-center"></Image>
+                    <Image src={logo} alt="logo du site" width={150} height={150}></Image>
 
                 </div>
 
@@ -57,7 +57,49 @@ export default function AcceuilLayout({ children }) {
 
             </header>
 
-            <div>
+            {/* Ici je crée la div qui mme servira pour acceuillir tous les différents genres de jeux qu'il y a dans l'api */}
+
+            <div className="w-full h-[100px] flex justify-center items-center flex-col">
+
+                <div className="w-full h-[50%] flex justify-center items-center gap-7">
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Shooter</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Mmoarpg</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Arpg</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Strategy</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Action Rpg</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Battle Royale</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Mmorpg</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Fighting</p>
+
+                </div>
+
+                <div className="w-full h-[50%] flex justify-center items-center gap-8">
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Moba</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Action</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Card Games</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Sports</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Racing</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Mmo</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Fantasy</p>
+
+                    <p className="text-[#00fdff] font-bold hover:underline">Social</p>
+
+                </div>
 
             </div>
 
@@ -71,7 +113,7 @@ export default function AcceuilLayout({ children }) {
 
                 <div className="w-full h-[70%] flex justify-around items-center flex-row">
                     
-                    {/* Ici j'ai importé des images de logos de résaux sociaux et les est linkés a mes comtes, pour qu'on puiise me contacter au besoin */}
+                    {/* Ici j'ai importé des images de logos de résaux sociaux et les est linkés a mes comptes */}
 
                     <a href=""><Image src={dicord} alt="image de discord" width={40} height={40}></Image></a>
 
