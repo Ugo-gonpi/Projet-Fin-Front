@@ -6,13 +6,13 @@ import logo from "./../app/assets/logo3.png"
 
 import Link from 'next/link';
 
-import { changeStyle } from '@/lib/features/theme/themeSlice';
+// import { changeStyle } from '@/lib/features/theme/themeSlice';
 
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 
 const Header = () => {
 
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
     return (
         <header className="w-full h-[90px] flex bg-[#007f8e]">
@@ -29,7 +29,7 @@ const Header = () => {
 
                 <p className="text-[#00fdff] font-bold font-[fontSite] hover:border-b-2 hover:border-[#00fdff] text-[23px]">Genre de jeux</p>
 
-                <Link href="/details" className="text-[#00fdff] font-bold font-[fontSite] hover:border-b-2 hover:border-[#00fdff] text-[23px]">Favoris</Link>
+                <Link href="/favoris" className="text-[#00fdff] font-bold font-[fontSite] hover:border-b-2 hover:border-[#00fdff] text-[23px]">Favoris</Link>
 
             </div>
 
