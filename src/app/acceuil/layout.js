@@ -1,3 +1,5 @@
+"use client"
+
 // Ici j'importe les deux composants nécessaires pour la page
 
 import Header from "@/components/header"
@@ -13,7 +15,7 @@ export default function AcceuilLayout({ children }) {
 
             <Header />
 
-            {/* Ici je crée la div qui mme servira pour acceuillir tous les différents genres de jeux qu'il y a dans l'api */}
+            {/* Ici je crée la div qui me servira pour acceuillir tous les différents genres de jeux qu'il y a dans l'api */}
 
             <div className="w-full h-[100px] flex justify-center items-center flex-col">
 

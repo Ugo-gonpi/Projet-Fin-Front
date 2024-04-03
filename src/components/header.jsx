@@ -6,7 +6,13 @@ import logo from "./../app/assets/logo3.png"
 
 import Link from 'next/link';
 
+import { changeStyle } from '@/lib/features/theme/themeSlice';
+
+import { useDispatch } from 'react-redux';
+
 const Header = () => {
+
+    const dispatch = useDispatch();
 
     return (
         <header className="w-full h-[90px] flex bg-[#007f8e]">
