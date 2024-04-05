@@ -13,13 +13,13 @@ export default function NotFound() {
             
             <Image src={logo} width={200} height={200} alt="logo du site"></Image>
 
-            <h1 className="font-bold text-[30px] text-[#00fdff] underline">Oh oh, une erreur c&aposest produite</h1>
+            <h1 className="font-bold text-[30px] text-[#00fdff] underline">Oh oh, une erreur c`&apos`est produite</h1>
 
             <p className="font-bold text-[20px] text-[#00fdff]">Veuillez vérifier que vous avez écrits les bonnes informations dans le login</p>
 
             <Link href="/" className="mt-4 underline text-[#00fdff]">Retour au login</Link>
 
-            <Link href="/acceuil" className="mt-4 underline text-[#00fdff]">Retour à l&aposacceuil</Link>
+            <Link href="/acceuil" className="mt-4 underline text-[#00fdff]">Retour à l`&apos`acceuil</Link>
 
         </div>
     )
