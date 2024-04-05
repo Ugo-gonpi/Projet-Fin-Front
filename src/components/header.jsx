@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Image from "next/image"
+import Image from "next/image";
 
-import logo from "./../app/assets/logo3.png"
+import logo from "./../app/assets/logo3.png";
 
 import Link from 'next/link';
 
 // import { changeStyle } from '@/lib/features/theme/themeSlice';
 
-// import { useDispatch } from 'react-redux';
+// import { useDispatch, useSelector } from 'react-redux';
 
 const Header = () => {
 

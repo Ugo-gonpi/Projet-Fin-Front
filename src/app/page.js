@@ -5,7 +5,8 @@ import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 
 import { useState } from "react";
-import { loginEmail, loginFirstName, loginName } from "@/lib/features/login/loginSlice";
+
+// import { loginEmail, loginFirstName, loginName } from "@/lib/features/login/loginSlice";
 
 export default function Home() {
 
@@ -38,12 +39,11 @@ export default function Home() {
 
           <p className="text-[#00fdff] font-bold font-[fontSite] text-[20px] m-0">Nom:</p>
 
-          <input type="text" className="w-[250px] h-[35px] bg-[#003f51] border-[#00bebc] border-2 rounded-[10px] pl-[5px] text-[#00fdff] focus:outline-[#00bebc] font-[fontSite]" onChange={(e)=> {dispatch(loginName(e.target.value))}}/>
+          <input type="text" className="w-[250px] h-[35px] bg-[#003f51] border-[#00bebc] border-2 rounded-[10px] pl-[5px] text-[#00fdff] focus:outline-[#00bebc] font-[fontSite]"/>
 
           <p className="text-[#00fdff] font-bold font-[fontSite] text-[20px] m-0">Prénom:</p>
 
-          <input type="text" className="w-[250px] h-[35px] bg-[#003f51] border-[#00bebc] border-2 rounded-[10px] pl-[5px] text-[#00fdff] focus:outline-[#00bebc] font-[fontSite]" onChange={(e) => {dispatch
-          (loginFirstName(e.target.value))}}/>
+          <input type="text" className="w-[250px] h-[35px] bg-[#003f51] border-[#00bebc] border-2 rounded-[10px] pl-[5px] text-[#00fdff] focus:outline-[#00bebc] font-[fontSite]"/>
 
         </div>
 
@@ -51,11 +51,11 @@ export default function Home() {
 
           <p className="text-[#00fdff] font-bold font-[fontSite] text-[20px]">Email:</p>
 
-          <input type="email" className="w-[250px] h-[35px] bg-[#003f51] border-[#00bebc] border-2 rounded-[10px] pl-[5px] text-[#00fdff] focus:outline-[#00bebc] font-[fontSite]" onChange={(e)=> {dispatch(loginEmail(e.target.value))}}/>
+          <input type="email" className="w-[250px] h-[35px] bg-[#003f51] border-[#00bebc] border-2 rounded-[10px] pl-[5px] text-[#00fdff] focus:outline-[#00bebc] font-[fontSite]"/>
 
         </div>
 
-        <button className="w-[150px] h-[40px] border-[#00fdff] border-2 rounded-[10px] text-[#00fdff] bg-[#003f51] font-[fontSite] hover:brightness-125 active:brightness-150 flex justify-center items-center font-bold" onClick={() => initializing()}>S'enregistrer</button>
+        <Link className="w-[150px] h-[40px] border-[#00fdff] border-2 rounded-[10px] text-[#00fdff] bg-[#003f51] font-[fontSite] hover:brightness-125 active:brightness-150 flex justify-center items-center font-bold" href='/acceuil'>S&aposenregistrer</Link>
 
       </div>
 

@@ -7,9 +7,13 @@ async function getProduct(){
     return res.json()
 }
 
+import { useSelector } from "react-redux"
+
 export default async function Acceuil() {
 
     const products = await getProduct()
+
+    // const bgMain = useSelector((state)=> state.themes.backgroundMain)
 
     return(
         <div className="bg-[#003f51] w-full justify-center items-center flex flex-wrap">
