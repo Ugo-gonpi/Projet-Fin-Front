@@ -55,7 +55,7 @@ export default function Home() {
 
         </div>
 
-        <Link className="w-[150px] h-[40px] border-[#00fdff] border-2 rounded-[10px] text-[#00fdff] bg-[#003f51] font-[fontSite] hover:brightness-125 active:brightness-150 flex justify-center items-center font-bold" href='/acceuil'>S`&apos`enregistrer</Link>
+        <Link className="w-[150px] h-[40px] border-[#00fdff] border-2 rounded-[10px] text-[#00fdff] bg-[#003f51] font-[fontSite] hover:brightness-125 active:brightness-150 flex justify-center items-center font-bold" href='/acceuil'>Enregistrer</Link>
 
       </div>
 
